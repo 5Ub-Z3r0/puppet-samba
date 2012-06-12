@@ -1,0 +1,23 @@
+{
+  "name": "puppet-samba",
+  "author": "5ubZ3r0",
+  "description": "This puppet module manages samba configuration.\n\nIt has been tested only for samba managing shares, tough it does not care about the content of your config file.\n\nTested on CentOS 6.2, RHEL 6.2, CentOS 5.8.",
+  "license": "GPL v3",
+  "project_page": "https://github.com/5Ub-Z3r0/puppet-samba",
+  "source": "https://github.com/5Ub-Z3r0/puppet-samba",
+  "summary": "A puppet module that manages samba",
+  "version": "0.2.0",
+  "checksums": {
+    "Modulefile": "d309ee315176ea3f923480c286e3a55b",
+    "README": "627fbb57eb8d94308f01a11430418fb6",
+    "manifests/conf.pp": "ad4b285a6736aebebb6fa59e38ddded1",
+    "manifests/init.pp": "f658b594ac88da9026c675bfe0310d57",
+    "manifests/install.pp": "c929e13f546bcdb3f02efede9db1af9b",
+    "manifests/params.pp": "f41d11e7dbbde67a2cf4d29cf6783a55",
+    "manifests/service.pp": "192c819791e2042703891e51a61d314a",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests/init.pp": "4dcc2868cb9740c32eb68f345a7b7194"
+  },
+  "dependencies": []
+}

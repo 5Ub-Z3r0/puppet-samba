@@ -1,0 +1,7 @@
+puppet-samba
+
+This puppet module manages samba configuration.
+
+It has been tested only for samba managing shares, tough it does not care about the content of your config file.
+
+Tested on CentOS 6.2, RHEL 6.2, CentOS 5.8.
