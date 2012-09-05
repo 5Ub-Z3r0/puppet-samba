@@ -18,8 +18,7 @@
 # 5Ub-Z3r0
 #
 class samba::install {
-
-    package { $samba::params::package_name:
-        ensure => present,
-    }
+  package { $samba::params::package_name:
+    ensure => present,
+  }
 }

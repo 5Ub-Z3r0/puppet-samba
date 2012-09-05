@@ -34,15 +34,15 @@
 # 5Ub-Z3r0
 #
 define samba::conf($ensure = 'present', $source = undef, $content = undef) {
-    include samba
+  include samba
 
-    file { $samba::params::smb_config_file:
-        ensure  => $ensure,
-        owner   => root,
-        group   => root,
-        content => $content,
-        source  => $source,
-        require => Class['samba'],
-        notify  => Class['samba::service'],
-    }
+  file { $samba::params::smb_config_file:
+    ensure  => $ensure,
+    owner   => root,
+    group   => root,
+    content => $content,
+    source  => $source,
+    require => Class['samba'],
+    notify  => Class['samba::service'],
+  }
 }

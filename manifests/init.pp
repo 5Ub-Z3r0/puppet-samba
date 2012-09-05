@@ -15,5 +15,5 @@
 # 5Ub-Z3r0
 #
 class samba {
-    include samba::params, samba::install, samba::service
+  include samba::params, samba::install, samba::service
 }
